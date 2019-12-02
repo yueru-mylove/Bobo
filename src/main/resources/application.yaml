@@ -1,0 +1,11 @@
+global:
+  # 标题
+  title: Bobo Blog
+server:
+  # 端口
+  port: 8084
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
